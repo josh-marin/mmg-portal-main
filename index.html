@@ -141,6 +141,12 @@
       align-items: stretch;
     }
 
+    .portal-grid.portal-grid-duo {
+      grid-template-columns: repeat(2, minmax(280px, 1fr));
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
     .portal-card {
       position: relative;
       display: flex;
@@ -411,7 +417,7 @@
     </header>
 
     <main class="portal-main page-shell">
-      <section class="portal-grid" aria-label="Artist operations portals">
+      <section class="portal-grid portal-grid-duo" aria-label="Artist operations portals">
         <article class="portal-card reveal delay-1">
           <div>
             <span class="card-index" aria-hidden="true">01</span>
